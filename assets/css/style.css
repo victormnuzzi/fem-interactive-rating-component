@@ -35,17 +35,25 @@
     display: inline-block;
 }
 
+.content-container p {
+    font-size: 15px;
+}
+
 /* --------------------- Rating state --------------------- */
 
 .rating-container {
     width: 100%;
     height: 100%;
     border: 2px solid green;
-    opacity: 0;
+    opacity: 1;
     align-items: start;
     justify-content: space-between;
     padding: 36px;
 }
+
+
+/* Rating */
+
 
 
 /* Button */
@@ -79,7 +87,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 1;
+    opacity: 0;
     justify-content: space-between;
     border: 2px solid red;
 }
