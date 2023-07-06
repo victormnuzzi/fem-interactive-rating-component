@@ -48,10 +48,14 @@
 }
 
 /* Icon */
-
+.fa-star {
+    color: hsl(25, 97%, 53%);
+}
 
 /* Heading */
-
+.rating-container h2 {
+    font-size: 28px;
+}
 
 /* Paragraph */
 
@@ -115,8 +119,6 @@
     color: hsl(25, 97%, 53%);
     background-color: white;
 }
-
-
 
 /* --------------------- Thank you state --------------------- */
 
