@@ -39,11 +39,11 @@
 
         <!-- Rating Options -->
         <div class="rating flexbox">
-          <div class="circle rate"><p>1</p></div>
-          <div class="circle rate"><p>2</p></div>
-          <div class="circle rate"><p>3</p></div>
-          <div class="circle rate"><p>4</p></div>
-          <div class="circle rate"><p>5</p></div>
+          <div class="circle number-rating" id="rating-circle1" onclick="selectedRating(1)"><p id="number1">1</p></div>
+          <div class="circle number-rating" id="rating-circle2" onclick="selectedRating(2)"><p id="number2">2</p></div>
+          <div class="circle number-rating" id="rating-circle3" onclick="selectedRating(3)"><p id="number3">3</p></div>
+          <div class="circle number-rating" id="rating-circle4" onclick="selectedRating(4)"><p id="number4">4</p></div>
+          <div class="circle number-rating" id="rating-circle5" onclick="selectedRating(5)"><p id="number5">5</p></div>
         </div>
 
         <!-- Button -->
@@ -55,7 +55,7 @@
       <!-- Thank you state start -->
       <div class="ty-container flexbox" id="ty-state">
         <img src="./assets/images/illustration-thank-you.svg" alt="Illustration">
-        <p class="ty-rate">You selected <!-- Add rating here --> out of 5</p>
+        <p class="ty-rating">You selected <!-- Add rating here --> out of 5</p>
         
         <h2>Thank you!</h2>
         

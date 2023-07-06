@@ -82,20 +82,20 @@
     border-radius: 50%;
 }
 
-.rate p {
+.number-rating p {
     color: hsl(217, 12%, 63%);                              
 }
 
-.rate {
+.number-rating {
     transition: .5s;
 }
 
-.rate:hover {
+.number-rating:hover {
     cursor: pointer;
     background-color: hsl(25, 97%, 53%);
 }
 
-.rate:hover p {
+.number-rating:hover p {
     color: white;
 }
 
@@ -132,7 +132,7 @@
     justify-content: space-between;
 }
 
-.ty-rate {
+.ty-rating {
     font-size: 15px;
     color: hsl(25, 97%, 53%);
     background-color: #363D46;
