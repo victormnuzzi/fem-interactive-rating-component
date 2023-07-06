@@ -141,6 +141,10 @@
     margin: 20px;
 }
 
+.ty-rating span {
+    color: hsl(25, 97%, 53%);
+}
+
 .ty-container h2 {
     font-size: 28px;
 }

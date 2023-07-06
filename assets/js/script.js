@@ -22,8 +22,6 @@ function selectedRating(number) {
         
         selectedNumber = number;
     }
-
-
 }
 
 // Submit button
@@ -31,4 +29,5 @@ function selectedRating(number) {
 function submitRating() {
     document.getElementById("rating-state").style.display = "none";
     document.getElementById("ty-state").style.display = "flex";
+    document.getElementById("selected-rating-number").textContent = `${selectedNumber}`;
 }
