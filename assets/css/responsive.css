@@ -1,0 +1,31 @@
+@media(max-width: 470px){
+    .content-container {
+        width: 350px;
+    }
+
+    /* Rating State */
+    .rating-container {
+        padding: 36px 26px;
+    }
+
+    /* Heading */
+    .rating-container h2 {
+    font-size: 26px;
+    }
+
+    .circle {
+        height: 44px;
+        width: 44px;
+    }
+
+    .number-rating p {
+        font-size: 13px;
+    }
+
+    /* Thank You State */
+    .ty-container {
+        padding: 50px 30px;
+    }
+
+
+}
