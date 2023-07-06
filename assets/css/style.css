@@ -92,11 +92,11 @@
 
 .number-rating:hover {
     cursor: pointer;
-    background-color: hsl(25, 97%, 53%);
+    background-color: hsl(25, 97%, 53%) !important;
 }
 
 .number-rating:hover p {
-    color: white;
+    color: white !important;
 }
 
 /* Button */
