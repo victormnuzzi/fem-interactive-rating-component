@@ -35,13 +35,12 @@
 
 }
 
-
 /* --------------------- Rating state --------------------- */
 
 .rating-container {
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
     align-items: start;
     justify-content: space-between;
     padding: 36px;
@@ -129,12 +128,21 @@
     position: absolute;
     top: 0;
     left: 0;
-    display: none;
+    display: flex;
     justify-content: space-between;
-    border: 2px solid red;
 }
 
+.ty-rate {
 
+}
+
+.ty-container h2 {
+    
+}
+
+.ty-paragraph {
+
+}
 
 
 
