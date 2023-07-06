@@ -28,7 +28,7 @@
     <div class="content-container">
       
       <!-- Rating state start -->
-      <div class="rating-container flexbox">
+      <div class="rating-container flexbox" id="rating-state">
 
         <!-- Star icon -->
         <div class="circle"><p><i class="fa-solid fa-star"></i></p></div>
@@ -47,13 +47,13 @@
         </div>
 
         <!-- Button -->
-        <a href="#" class="btn flexbox">Submit</a>
+        <a href="#" class="btn flexbox" id="btn-submit" onclick="submitRating()">Submit</a>
       
       </div>
       <!-- Rating state end -->
       
       <!-- Thank you state start -->
-      <div class="ty-container flexbox">
+      <div class="ty-container flexbox" id="ty-state">
         <img src="./assets/images/illustration-thank-you.svg" alt="Illustration">
         <p class="ty-rate">You selected <!-- Add rating here --> out of 5</p>
         
@@ -68,6 +68,6 @@
       
     </article>
 
-  <script src="script.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
