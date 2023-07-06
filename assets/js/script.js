@@ -1,13 +1,26 @@
 
 // Rating
+
 let selectedNumber;
 function selectedRating(number) {
     const selectedCircle = document.getElementById(`rating-circle${number}`).style.backgroundColor;
 ;
     if (selectedNumber == undefined) {
-        selectedNumber = number;
+        // Change the selected circle and font color
         document.getElementById(`rating-circle${number}`).style.backgroundColor = "hsl(217, 12%, 63%)";
         document.getElementById(`number${number}`).style.color = "white";
+
+        selectedNumber = number;
+    } else {
+        // Reset the previously selected circle and font color
+        document.getElementById(`rating-circle${selectedNumber}`).style.backgroundColor = "#363D46";
+        document.getElementById(`number${selectedNumber}`).style.color = "hsl(217, 12%, 63%)";
+        
+        // Change the selected circle and font color
+        document.getElementById(`rating-circle${number}`).style.backgroundColor = "hsl(217, 12%, 63%)";
+        document.getElementById(`number${number}`).style.color = "white";
+        
+        selectedNumber = number;
     }
 
 
