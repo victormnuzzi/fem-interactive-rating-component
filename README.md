@@ -1,48 +1,32 @@
-# Frontend Mentor - Interactive rating component solution
+# ⭐ Interactive Rating Component
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Repositório dedicado ao exercício ["Interactive Rating Component"](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI) do site [Frontend Mentor](https://www.frontendmentor.io).
 
-## Table of contents
+## 🎯Desafio
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+"This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"
 
-## Overview
+*(Este é um pequeno e agradável projeto para praticar o tratamento das interacções do utilizador e a atualização do DOM. Perfeito para quem já aprendeu o básico de JavaScript!)*
 
-### The challenge
+### ⚒️ Tecnologias utilizadas 
+- HTML5
+- CSS3
+- JavaScript
 
-Users should be able to:
+### 🤩 Resultado
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+- [Confira aqui o resultado!](https://fem-vn-interactive-rating-component.netlify.app)
 
-### Screenshot
+### 📱 Screenshots
 
-![](./design/solution1-screenshot.png)
-![](./design/solution2-screenshot.png)
+<details style="margin-left: 28px;">
+  <summary style="margin-bottom: 10px">Desktop:</summary>
+  <img src="./solution/solution-desktop1-screenshot.png" alt="Desktop solution rating state screenshot" style="width: 400px;"></img>
+  <img src="./solution/solution-desktop2-screenshot.png" alt="Desktop solution thank you state screenshot" style="width: 400px;"></img>   
+</details>
 
-### Links
-
-- Live Site URL: [https://nuzzi-interactive-rating-component.netlify.app](https://nuzzi-interactive-rating-component.netlify.app)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-
-## Author
-
-- Website - [...]()
-- Frontend Mentor - [@victormnuzzi](https://www.frontendmentor.io/profile/victormnuzzi)
-
+<details style="margin-left: 28px;">
+  <summary style="margin-bottom: 10px;">Mobile:</summary>
+  <img src="./solution/solution-mobile1.png" alt="Mobile solution rating state screenshot" style="height: 400px;"></img>
+  <img src="./solution/solution-mobile2.png" alt="Mobile solution thank you state screenshot" style="height: 400px;"></img>
+</details>
